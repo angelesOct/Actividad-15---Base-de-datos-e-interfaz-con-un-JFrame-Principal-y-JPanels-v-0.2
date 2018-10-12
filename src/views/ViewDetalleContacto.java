@@ -31,12 +31,18 @@ public class ViewDetalleContacto extends javax.swing.JPanel {
         jl_telefono = new javax.swing.JLabel();
         jl_email1 = new javax.swing.JLabel();
 
+        jl_nombre.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jl_nombre.setForeground(new java.awt.Color(0, 102, 102));
         jl_nombre.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jl_nombre.setText("nombre");
 
+        jl_telefono.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jl_telefono.setForeground(new java.awt.Color(0, 102, 102));
         jl_telefono.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jl_telefono.setText("telefono");
 
+        jl_email1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jl_email1.setForeground(new java.awt.Color(0, 102, 102));
         jl_email1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jl_email1.setText("email");
 
